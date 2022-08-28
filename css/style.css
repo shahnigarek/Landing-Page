@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    background-color: #f8f9fa00;
+    overflow:auto;
+    padding:15px 5rem;
+}    
+#container .text{
+    float:left;
+}
+#container .button{
+    float:right;
+}
+.text a{
+    font-size: 20px;
+    padding:5px 5px;
+    margin:0px 16px 0px 0px;
+    color:#000000E6;
+}
+.button a{
+    color:#FFFFFF;
+    font-size: 16px;
+    padding: 12px 10px;
+    background-color: #0D6EFD;
+    border: none;
+    border-radius:5px;
+    text-align: center;
+    display:inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: relative;
+    background-size: cover;
+    padding:12rem 0;
+    text-align: center;
+    
+}
+.find h1{
+    color:#FFFFFF;
+    font-size: 48px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.find-form input{
+    background-color: #FFFFFF;
+    padding:16px 20px;
+    border-color: #FFFFFF;
+    border-radius: 6px;
+    width: 30%;
+}
+.find-form button{
+padding:15px 20px;
+color:white;
+background-color: #0D6EFD;
+border-color: #0D6EFD;
+border-radius: 6px;
+margin-left: 20px;
+}
+.find-form{
+    margin-top: 30px;
+}
+.features .all-boxes{
+    display: flex;
+}
+.features .all-boxes .box {
+    padding: 70px;
+    text-align: center;
+    float: left;
+    width: 33%;
+  
+}
+
+.features .all-boxes .box .icon a i {
+    font-size: 88px;
+    color: #0d6efd;
+    
+}
+
+.features .all-boxes .box .title {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.features .all-boxes .box .title p {
+    padding: 10px;
+    font-size: 22px;
+    color:#212529;
+}
+.showcase .all-case .cases  {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase .all-case .cases .left {
+    width: 56.9%;
+    font-size: 20px;
+    padding: 7rem;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+
+.showcase .all-case .cases .right img {
+   width:100%;
+
+}
+
